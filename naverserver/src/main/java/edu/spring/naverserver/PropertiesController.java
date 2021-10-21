@@ -11,7 +11,7 @@ public class PropertiesController {
 	@Autowired
 	Properties p;
 	
-	@RequestMapping("/properties")
+	@RequestMapping("/propertiestest")
 	@ResponseBody
 	public String getProperties(){
 		String result = p.getDriverclassname() + " , ";
